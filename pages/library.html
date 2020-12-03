@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="../styles/library.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body onload="MakeList(videoList)">
+    <header>
+        <div id="logo-div">
+            <h1>Togetherness Project</h1>
+        </div>
+        <div id="nav-bar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="participate.html">Participate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <h1 style="text-align: center;">Video Library</h1>
+    <div id="search">
+        <i style="margin-right: 5px;" class="fas fa-search"></i>
+        <input type="text" id="user-input" value="" oninput="SearchFilter(value)">
+    </div>
+    <div id="list">
+        <div id="div-item"></div>
+    </div>
+    <footer>
+        <div>
+            <h3>Togetherness Project</h3>
+            <p><i class="far fa-envelope"></i><a href="mailto:togethernessproject2020@gmail.com"> togethernessproject2020@gmail.com</a></p>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <p>Follow us on:</p>
+            <div>
+                <a href="https://www.instagram.com/the_togetherness_project/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/groups/thetogethernessproject/"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../javascript/library.js"></script>
+</body>
+</html>
+

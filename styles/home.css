@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #938d93;
+    position: relative;
+    padding-bottom: 100px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    background-color: #314152;
+    color: white;
+}
+#nav-bar {
+    display: flex;
+    align-items: center;
+}
+#nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+}
+#nav-bar li {
+    margin: 0 35px;
+}
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: all .2s ease-in-out;
+}
+#nav-bar a:hover {
+    background-color: #fdce4b;
+    color: #314152;
+}
+#hero-img {
+    font-size: 0px;
+    background-image: url("../images/pexels-andrea-piacquadio-3768131.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+#boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 70px;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box-text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.box:hover {
+    transform: scale(1.1);
+}
+#box1 {
+    background-image: url("../images/pexels-edward-eyer-1049557.jpg");
+    background-position: 66%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    transition: all .2s ease-in-out;
+}
+#box2 {
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 10%, rgba(0,0,0,.5) 10%), url("../images/pexels-pixabay-461049.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    transition: all .2s ease-in-out;
+}
+#box3 {
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 10%, rgba(0,0,0,.5) 10%), url("../images/pexels-skitterphoto-675960.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    transition: all .2s ease-in-out;
+}
+.box-text {
+    padding: 10px 20px;
+    color: white;
+}
+.btn {
+    padding: 10px 16px;
+    width: 76px;
+    border: 3px solid white;
+    border-radius: 22px;
+    text-decoration: none;
+    color: white;
+    margin: 30px 20px;
+    transition: all .2s ease-in-out;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+#video-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 70px; 
+}
+#video-div div {
+    margin-left: 20px;
+    color: #1C2833;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #403d44;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer a {
+    color: white;
+}
