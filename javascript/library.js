@@ -14,7 +14,28 @@ let videoList = [
     {
         name: "project 2",
         video: "https://www.youtube.com/embed/VRSDXqOASdU"
+    },
+    {
+        name: "Christmas Time is Here - Peter Kurtz",
+        video: "https://www.youtube.com/embed/xw5DORLiowk"
+    },
+    {
+        name: "What Child is This – The Togetherness Project",
+        video: "https://www.youtube.com/embed/vK5FO4ecmlA"
+    },
+    {
+        name: "Beethoven Sonata in G major, Movement 1 – The Togetherness Project",
+        video: "https://www.youtube.com/embed/F7X-oNrshUU"
+    },
+    {
+        name: "Blue Christmas – Kenny Godfrey",
+        video: "https://www.youtube.com/embed/nF2jJcf7cP4"
+    },
+    {
+        name: "Away in a Manger – RJ, Nick, & Ashley",
+        video: "https://www.youtube.com/embed/r0GoLmAe43I"
     }
+
 ];
 
 function MakeList(list) 
